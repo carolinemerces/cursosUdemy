@@ -11,10 +11,10 @@ func main() {
 	//programacao orientada a lugar (vídeo no youtube)
 
 	var p *int = nil //int - tipo do ponteiro (início do dado)
-	p = &i           //pegue o endereco da variável i e atribua ao p (ponteiro)
+	p = &i           //pegue o endereco da variável i e atribua ao p (ponteiro / referencia)
 
 	*p++ //pegou o valor associado ao ponteiro (desreferenciando) e incrementando +1
-	i++
+	i++ //mexeram no mesmo espaco de memória e os valores serão iguais
 
 	fmt.Println(p, *p, i, &i)
 }
