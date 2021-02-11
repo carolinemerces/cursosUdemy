@@ -27,6 +27,7 @@ func main() {
 		fmt.Println(letra, funcs)
 	}
 
+	//for range dentro de outro for range - varrendo o primeiro map (chave) e o segundo map (valor dessa chave, que é outra chave e valor)
 	for l := range funcsPorLetra {
 		fmt.Printf("Letra: %s\n", l)
 
