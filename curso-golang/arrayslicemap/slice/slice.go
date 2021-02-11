@@ -22,6 +22,6 @@ func main() {
 	s3 := a1[:2] //vai do início do indíce até o 1, pois não inclui o 2
 	fmt.Println(a1, s3)
 
-	s4 := s1[:1] //slice de um slice do mesmo array a1
+	s4 := s1[:1] //slice de um slice do mesmo array a1 - do zero ao 1, mas sem considerar o 1
 	fmt.Println(a1, s4)
 }
