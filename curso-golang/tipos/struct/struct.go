@@ -19,7 +19,7 @@ func (p produto) precoComDesconto() float64 { //o produto é a struct a qual ser
 //funcao main, com declaracao da variável do tipo produto e atribuicao de valor para ele, com cálculo do desconto(funcao)
 func main() {
 	var produto1 produto
-	produto1 = produto{ //para atribuicao de valor é necessário o uso de vírgula
+	produto1 = produto{ //para atribuicao de valor é necessário o uso de : e ,
 		nome:     "Lápis",
 		preco:    1.79,
 		desconto: 0.05,
