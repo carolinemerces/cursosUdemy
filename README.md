@@ -1,2 +1,2 @@
 # cursos Udemy 
-Golang - Exercícios simples e práticos em Golang
+Golang - Exemplos e exercícios simples e práticos
