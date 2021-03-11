@@ -19,7 +19,7 @@ func exec(db *sql.DB, sql string) sql.Result {
 
 //o baco de dados necessita estar sendo executado
 func main() {
-	db, err := sql.Open("mysql", "root: @/") //abertura de conexão com banco de dados, chamada de mysql (porém ainda não existe), passando o user:senha e @/ significa que não iremos nos conectar a um banco de dados específico
+	db, err := sql.Open("mysql", "root:senha@/") //abertura de conexão com banco de dados, chamada de mysql (porém ainda não existe), passando o user:senha e @/ significa que não iremos nos conectar a um banco de dados específico
 	if err != nil {
 		panic(err)
 	}
